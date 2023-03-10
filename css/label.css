@@ -1,0 +1,133 @@
+.label {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+
+.label:empty {
+  display: none;
+}
+
+.btn .label {
+  position: relative;
+  top: -1px;
+}
+
+a.label:hover, a.label:focus {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.label-default, .label-inverse {
+  background-color: #999999;
+}
+
+.label-default[href]:hover, [href].label-inverse:hover, .label-default[href]:focus, [href].label-inverse:focus {
+  background-color: gray;
+}
+
+.label-primary {
+  background-color: #2477FF;
+}
+
+.label-primary[href]:hover, .label-primary[href]:focus {
+  background-color: #005bf0;
+}
+
+.label-success {
+  background-color: #2D8515;
+}
+
+.label-success[href]:hover, .label-success[href]:focus {
+  background-color: #1e590e;
+}
+
+.label-info {
+  background-color: #4179CF;
+}
+
+.label-info[href]:hover, .label-info[href]:focus {
+  background-color: #2d61b0;
+}
+
+.label-warning {
+  background-color: #E49400;
+}
+
+.label-warning[href]:hover, .label-warning[href]:focus {
+  background-color: #b17300;
+}
+
+.label-danger, .label-important {
+  background-color: #DB2A34;
+}
+
+.label-danger[href]:hover, [href].label-important:hover, .label-danger[href]:focus, [href].label-important:focus {
+  background-color: #b41e27;
+}
+
+.text-muted {
+  color: #d2d2d2;
+}
+
+.text-default {
+  color: #999999;
+}
+
+a.text-default:hover,
+a.text-default:focus {
+  color: gray;
+}
+
+.text-primary {
+  color: #2477FF;
+}
+
+a.text-primary:hover,
+a.text-primary:focus {
+  color: #005bf0;
+}
+
+.text-success {
+  color: #2D8515;
+}
+
+a.text-success:hover,
+a.text-success:focus {
+  color: #1e590e;
+}
+
+.text-info {
+  color: #4179CF;
+}
+
+a.text-info:hover,
+a.text-info:focus {
+  color: #2d61b0;
+}
+
+.text-warning {
+  color: #E49400;
+}
+
+a.text-warning:hover,
+a.text-warning:focus {
+  color: #b17300;
+}
+
+.text-danger {
+  color: #DB2A34;
+}
+
+a.text-danger:hover,
+a.text-danger:focus {
+  color: #b41e27;
+}

@@ -1,0 +1,32 @@
+<!-- Modal for adding category -->
+<div id="modal_category" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-round-large w3-theme-l4 w3-animate-zoom">
+    <header class="w3-container"> 
+      <a id="close_category_modal" class="w3-btn w3-display-topright w3-round-large"><i class="fas fa-times"></i></a>
+      <h2 class="w3-center w3-text-indigo"><b>Add Category</b></h2>
+    </header>
+    <form class="w3-container" action="models/add_category.php" method="POST" onsubmit="return checkCategory(this);">
+      <label class="w3-text-indigo" for="name"><b>Category name</b></label>
+      <input class="w3-input w3-round" type="text" placeholder="Enter category name" name="name" required>
+      <br>
+      <label class="w3-text-indigo" for="color"><b>Color</b></label>
+      <select class="w3-select w3-round" name="color" id="color_options" required>
+        <option value="" disabled selected>Choose category color</option>
+      </select>
+      <br>
+      <br>
+      <button class="w3-button w3-round w3-block w3-indigo" type="submit" name="submit">Send</button>
+      <br>
+    </form>
+  </div>
+</div>
+
+<!-- Modal for slogan -->
+<div id="modal_help" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-round-large w3-theme-l4 w3-animate-zoom">
+    <header class="w3-container"> 
+      <a id="close_help_modal" class="w3-btn w3-display-topright w3-round-large"><i class="fas fa-times"></i></a>
+      <h2 class="w3-center w3-text-indigo" id="slogan_content">test</h2>
+    </header>
+  </div>
+</div>

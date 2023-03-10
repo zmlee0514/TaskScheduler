@@ -1,0 +1,41 @@
+.bgColor{background-color:#535C63; color:#fff}
+.widget{background-color:rgba(51, 51, 51, 0.425); margin: 16px 8px 32px 8px;}
+
+@media (min-width: 993px){
+  .w3-modal-content{width: 600px}
+  .card-sep{border-right: 1px solid;}
+}
+@media (max-width:992px){
+  #sidenav {box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);}
+}
+.banner-height{margin-top: 43px}
+@media (min-width:601px){
+  .banner-padding{padding: 12px 24px}
+  .banner-height{margin-top: 67px}
+}
+
+/* table */ 
+.table-striped tbody tr:nth-child(odd){background-color:rgba(31, 31, 31, 0.3);}
+.action_col{display: none}
+
+/* scrollbar css */
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: darkgray #535C63;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #535C63;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: darkgray;
+  border-radius: 20px;
+  border: 3px solid #535C63;
+}
